@@ -6,7 +6,7 @@
  * Time: 21:49
  */
 
-class Car {
+class Cars {
 
   function greeting() {
     echo "Yo!";
@@ -15,3 +15,6 @@ class Car {
 }
 
 $bmw = new Cars();
+$mercedes = new Cars();
+
+$bmw->greeting();
